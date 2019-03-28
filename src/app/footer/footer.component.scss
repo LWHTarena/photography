@@ -1,0 +1,117 @@
+/*start footer_top */
+.footer_top {
+	margin-top: 4%;
+	padding-top: 4%;
+	border-top: 1px solid rgb(231, 231, 231);
+}
+
+.span_of_4 {
+    display: block;
+}
+.span1_of_4{
+	float:left;
+	width: 22.33333%;
+	margin-left: 3.3333%;
+}
+.span1_of_4:first-child{
+	margin-left: 0;
+}
+.span1_of_4 h4{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	color: #505050;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 12%;
+}
+.span1_of_4 p{
+	font-size: 0.8925em;
+	color: #777777;
+	line-height:1.8em;
+}
+.span1_of_4 p.top{
+	margin-top: 4%;
+}
+.span1_of_4 p.bg{
+	background: #6C87BE;
+	padding: 8%;
+}
+.span1_of_4 p a{
+	font-size: 1em;	
+	color:#ffffff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.span1_of_4 p a:hover{
+	color: #DDE8FF;
+}
+.span1_of_4 h5{
+	font-size:1.1em;
+	color: #666666;
+	margin-top: 8%;
+	display: block;
+	line-height:1.5em;
+}
+.span1_of_4 span{
+	font-size:1.1em;
+	color: #666666;
+	margin-top: 8%;
+	display: block;
+	line-height:1.5em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.span1_of_4 span:hover{
+	color: #6C87BE;
+}
+
+.f_nav li{
+	float: left;
+	width: 24.3333%;
+	margin: 0 20px 4px 0;
+}
+.f_nav li a{
+	display: block;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.f_nav li a img{
+	background: #ffffff;
+	padding: 5px;
+	border: 1px solid #eeeeee;
+}
+.f_nav li a:hover{
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+	-webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+
+.copy{
+	text-align:center;
+}
+.copy p{
+	color: #9c9c9c;
+	font-size: 1em;
+	line-height: 1.8em;
+}
+.copy p a{
+	color:#38528B;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.copy p a:hover{
+	color: #9c9c9c;
+}

@@ -1,0 +1,50 @@
+/*-- start header --*/
+.header{
+	background: url(../assets/images/header.jpg);
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+/*-- start header1 --*/
+.header2{
+	background: url(../assets/images/header1.jpg);
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	padding: 0 0 20% 0;
+}
+
+/*-- start main --*/
+.main{
+	background: url(../assets/images/bg.png);
+}
+
+/* start footer */
+.footer_bg{
+	border-top: 1px solid rgb(240, 237, 237);
+	background: #ffffff;
+}
+
+.btn{
+	display:inline-block;
+	background: #6C87BE;
+	color: #ffffff;
+	padding: 15px 40px;
+	font-size: 1em;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	box-shadow: inset 0px -4px 0px #526FAA;
+	-webkit-box-shadow: inset 0px -4px 0px #526FAA;
+	-moz-box-shadow: inset 0px -4px 0px #526FAA;
+	-o-box-shadow: inset 0px -4px 0px #526FAA;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.btn:hover{
+	background: #526FAA;
+}

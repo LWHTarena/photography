@@ -1,0 +1,118 @@
+/* start contact page*/
+.contact{
+	padding: 4%;
+}
+.contact_left {
+	float: left;
+	margin-right: 5.33333%;
+	width: 32.3333%;
+}
+.contact_right {
+	float:left;
+	width: 62.3333%;
+}
+.contact_left h3{
+	font-family: 'Roboto Slab', serif;
+	color: #6C87BE;
+	font-size: 1.5em;
+	margin-bottom: 2%;
+	text-transform: capitalize;
+}
+.company_address{
+	padding-top:10px;
+}
+.company_address p{
+	color: #777777;
+	line-height: 1.8em;
+	font-size: 1em;
+}
+.company_address p a{
+	color: #6C87BE;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.company_address p a:hover{
+	color: #777777;
+}
+.map{
+	margin: 6% 0 4%;
+}
+.contact_right h3{
+	margin-bottom: 2%;
+	text-transform: capitalize;
+	font-family: 'Roboto Slab', serif;
+	color: #6C87BE;
+	font-size: 1.5em;
+}
+.contact-form{
+	position:relative;
+}
+.contact-form div{
+	padding:5px 0;
+}
+.contact-form span{
+	text-transform: capitalize;
+	display: block;
+	color: #777777;
+	line-height: 1.8em;
+	font-size: 0.8725em;
+}
+.contact-form input[type="text"],.contact-form textarea{
+	font-family: 'Rosario', sans-serif;
+	padding: 10px;
+	display: block;
+	width: 96.3333%;
+	background: #ffffff;
+	outline: none;
+	color: #777777;
+	font-size: 1em;
+	border: 1px solid #ECECEC;
+	-webkit-appearance: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.contact-form input[type="text"]:focus,.contact-form textarea:focus{
+	box-shadow: inset 0px -1px 2px #6C87BE;
+	-webkit-box-shadow: inset 0px -1px 2px #6C87BE;
+	-moz-box-shadow: inset 0px -1px 2px #6C87BE;
+	-o-box-shadow: inset 0px -1px 2px #6C87BE;
+}
+.contact-form textarea{
+	resize:none;
+	height:120px;		
+}
+.contact-form input[type="submit"]{
+	font-family: 'Rosario', sans-serif;
+	margin-top: 10px;
+	-webkit-appearance: none;
+	float: right;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	display: inline-block;
+	background: #6C87BE;
+	color: #ffffff;
+	padding: 15px 40px;
+	font-size: 1em;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	box-shadow: inset 0px -4px 0px #526FAA;
+	-webkit-box-shadow: inset 0px -4px 0px #526FAA;
+	-moz-box-shadow: inset 0px -4px 0px #526FAA;
+	-o-box-shadow: inset 0px -4px 0px #526FAA;	
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.contact-form input[type="submit"]:hover{
+	background: #526FAA;
+}

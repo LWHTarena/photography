@@ -1,0 +1,10 @@
+<div [ngClass]="{'header': classFlag,'header2':!classFlag}" (initEmit)="changeClass($event)">
+  <app-header></app-header>
+</div>
+<div class="main">
+    <router-outlet></router-outlet>
+</div>
+
+<div class="footer_bg">
+  <app-footer></app-footer>
+</div>
